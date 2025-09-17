@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ninga in the jungle</title>
+
+    <link rel="icon" href="Idle__000.png" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body onload=" Box1(); Box2(); " id="body" onkeyup="keyCheck(event);" class="body">
+
+
+
+    <div id="background" class="background">
+
+
+        <div>
+            <button onclick="start()" id="start" class="start">start</button>
+            <div id="gameName" class="gameName"><u>Ninga in the jungle</u></div>
+            <div id="note" class="note">
+                <h4 class="noteTopic"> <u> INFORMATION
+                        <hr>
+                    </u> </h4>
+                <p class="noteDeteles">
+
+                    Click the "start button" to start game. <br /><br />
+                    Tap the "Space Key" to jump<br /> <br>
+                    Tap the "Shift Key" to goin down
+
+
+                </p>
+            </div>
+        </div>
+
+
+        <img id="ninja" class="ninja" src="Run (1).png">
+        <p id="scoreBord" class="scoreBord">score :-</p>
+        <p class="score" id="score"> 0</p>
+
+
+
+    </div>
+
+
+
+    </div>
+
+    <div id="endGame" class="endGame">
+
+        <div class="gameOver">-- Game Over --</div>
+        <div class="yuurScore">Your Score</div>
+        <div class="score0" id="score0">0</div>
+        <button id="button" onclick="relod();" class="button">...Play Again...</button>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
