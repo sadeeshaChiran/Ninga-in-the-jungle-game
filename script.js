@@ -99,7 +99,7 @@ function ninjaRun() {
     if (ninjaRunNumber == 11) {
         ninjaRunNumber = 1;
     }
-    document.getElementById("ninja").src = "Run (" + ninjaRunNumber + ").png"
+    document.getElementById("ninja").src = "Run_"+ninjaRunNumber+".png"
 }
 
 //moveBackgroundVar
@@ -186,7 +186,7 @@ function ninjaJump() {
 
     }
 
-    document.getElementById("ninja").src = "Jump (" + ninjaJumpNumber + ").png"
+    document.getElementById("ninja").src = "Jump_"+ninjaJumpNumber+".png"
 
 
 }
@@ -261,7 +261,7 @@ function Slide() {
         */
 
     }
-    document.getElementById("ninja").src = "Slide (" + SlideNumber + ").png"
+    document.getElementById("ninja").src = "Slide_"+SlideNumber+".png"
 
 
 }
@@ -466,7 +466,7 @@ function ninjaDead() {
 
     }
 
-    document.getElementById("ninja").src = "Dead (" + deadNingaNumber + ").png";
+    document.getElementById("ninja").src = "Dead_"+deadNingaNumber+".png";
 
 
 }
